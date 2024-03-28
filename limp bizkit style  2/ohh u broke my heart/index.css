@@ -1,0 +1,44 @@
+*{background-color: blueviolet;}
+
+/* codigos hexadecimales son # y digitos (6 digitos/letras) */
+
+div {background-color: burlywood;}
+
+h3 {background-color: aqua;}
+
+/* si le saco el *{background-color: blueviolet;}, solo se va a ver div{background-color: burlywood;} 
+ */
+
+ /* ::selection {transition-property: ;} 
+ 
+ selector {
+    propiedad:valor;
+    propiedad:valor;
+ }
+
+ 
+ */
+
+div p{
+    font-size: 32px;
+}
+
+p> span{
+    color: darkred;
+}
+
+h2:hover{
+    color: chocolate;
+}
+
+/* hover es para que se coloree cuando nosotros simplemente lo tocamos con el mouse */
+
+span:hover{
+    background-color: rgb(197, 60, 11);
+}
+
+/* . is class */
+
+.yyyyyeeeahhhoooooo { 
+    border: 7em dashed rgb(172, 150, 212);
+}
